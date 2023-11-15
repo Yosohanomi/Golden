@@ -1,0 +1,101 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+/*  HEADER */
+.header__logo {
+    color: #FED136;
+    text-align: center;
+    font-family: "Bilbo Swash Caps", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 113.889%;
+    letter-spacing: 1.3px;
+}
+
+.header__nav-list {
+    color: #FED136;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 292.857%;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+/* services */
+.services__section__title {
+    color: #222;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px; /* 187.5% */
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.services__section__title {
+    color: #222;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height:416.667%;
+    letter-spacing: -0.45px;
+}
+
+.services__section__text {
+    color: #777;
+    text-align: center;
+    font-family: RobotoSlab;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+}
+
+/* contact */
+.contact__section {
+    height: 679px;
+    background: #222;
+}
+
+.contact__section__title {
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.contact__section__form {
+    width: 455px;
+    height: 50px;
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: #CCC;
+}
+
+.contact__section__form-control {
+    color: #BBB;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+}
+
+.contact__section__btn {
+    width: 242px;
+    height: 68px;
+    background:#FED136;
+}
