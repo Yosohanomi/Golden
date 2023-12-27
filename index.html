@@ -12,75 +12,81 @@
 <body>
 <!-- HEADER -->
     <header class="header">
-        <a href="index.html" class="header__logo">Golden</a>
-        <nav class="header__nav">
-            <ul class="header__nav-list">
-                <li class="header__nav-item">
-                    <a href="index.html" class="header__nav-link">Home</a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="#" class="header__nav-link">Services</a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="#" class="header__nav-link">Portfolio</a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="#" class="header__nav-link">About</a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="#" class="header__nav-link">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <a href="index.html" class="header__logo">Golden</a>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="index.html" class="header__nav-link">Home</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Services</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Portfolio</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
 <!-- MAIN -->
     <main class="main">
     <!-- services -->
         <section class="services__section">
-            <h2 class="services__section__title">Services</h2>
-            <ul class="services__section__list">
-                <li class="services__section__item">
-                    <img src="public/images/combined-shape-134.jpg" alt="E-Commerce" class="services__section__img" width: 38.547px; height: 38.086px;>
-                    <h4 class="services__section__title">E-Commerce</h4>
-                    <p class="services__section__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-                </li>
+            <div class="container">
+                <h2 class="services__section__title">Services</h2>
+                <ul class="services__section__list">
+                    <li class="services__section__item">
+                        <img src="public/images/combined-shape-134.jpg" alt="E-Commerce" class="services__section__img" width: 38.547px; height: 38.086px;>
+                        <h4 class="services__section__subtitle">E-Commerce</h4>
+                        <p class="services__section__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                    </li>
 
-                <li class="services__item">
-                    <img src="public/images/combined-shape-132.jpg" alt="Responsive Web" class="services__section__img" width: 40.361px; height: 33.634px;>
-                    <h4 class="services__section__title">Responsive Web</h4>
-                    <p class="services__section__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-                </li>
+                    <li class="services__item">
+                        <img src="public/images/combined-shape-132.jpg" alt="Responsive Web" class="services__section__img" width: 40.361px; height: 33.634px;>
+                        <h4 class="services__section__subtitle">Responsive Web</h4>
+                        <p class="services__section__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                    </li>
 
-                <li class="services__item">
-                    <img src="public/images/combined-shape-130.jpg" alt="Web Security" class="services__section__img" width: 27.999px; height: 37.332px;>
-                    <h4 class="services__section__title">Web Security</h4>
-                    <p class="services__section__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-                </li>
-            </ul>
+                    <li class="services__item">
+                        <img src="public/images/combined-shape-130.jpg" alt="Web Security" class="services__section__img" width: 27.999px; height: 37.332px;>
+                        <h4 class="services__section__subtitle">Web Security</h4>
+                        <p class="services__section__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
     <!-- contact us -->
         <section class="contact__section">
-            <h2 class="contact__section__title">Contact us</h2>
-            <form class="contact__section__form">
-                <label class="contact__section__label" for="user_name">
-                    <input class="contact__section__form-control" type="text" name="name" id="user_name" placeholder="your Name *">
-                </label>
-                
-                <label class="contact__section__label" for="user_email">
-                    <input class="contact__section__form-control" type="email" name="email" id="user_email" placeholder="your e-mail *">
-                </label>
-                
-                <label class="contact__section__label" for="user_subject">
-                    <input class="contact__section__form-control" type="text" name="subject" id="user_subject" placeholder="subject">
-                </label>
+            <div class="container">
+                <h2 class="contact__section__title">Contact us</h2>
+                <form class="contact__section__form">
+                    <label class="contact__section__label" for="user_name">
+                        <input class="contact__section__form-control" type="text" name="name" id="user_name" placeholder="your Name *">
+                    </label>
+                    
+                    <label class="contact__section__label" for="user_email">
+                        <input class="contact__section__form-control" type="email" name="email" id="user_email" placeholder="your e-mail *">
+                    </label>
+                    
+                    <label class="contact__section__label" for="user_subject">
+                        <input class="contact__section__form-control" type="text" name="subject" id="user_subject" placeholder="subject">
+                    </label>
 
-                <label class="contact__section__label" for="user_message">
-                    <textarea class="contact__section__form-control" name="feedback" id="user_message" cols="30" rows="10">Your message *</textarea>
-                </label>
-            </form>
-            <button class="contact__section__btn" type="submit">Send Message</button>
+                    <label class="contact__section__label" for="user_message">
+                        <textarea class="contact__section__form-control" name="feedback" id="user_message" cols="30" rows="10">Your message *</textarea>
+                    </label>
+                </form>
+                <button class="contact__section__btn" type="submit">Send Message</button>
+            </div>
         </section>
     </main>
 </body>

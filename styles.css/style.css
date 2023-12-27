@@ -12,11 +12,23 @@ a {
     color: currentColor;
     text-decoration: none;
 }
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid red;
+}
 
 /*  HEADER */
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    padding-top: 35px;
+}
 .header__logo {
     color: #FED136;
-    text-align: center;
     font-family: "Bilbo Swash Caps", sans-serif;
     font-size: 36px;
     font-weight: 400;
@@ -26,26 +38,42 @@ a {
 
 .header__nav-list {
     color: #FED136;
-    text-align: center;
     font-size: 14px;
     font-weight: 400;
     line-height: 292.857%;
     text-transform: uppercase;
+    display: flex;
+    gap: 50px;
 }
+
 
 /* MAIN */
 /* services */
+.services__section .container {
+    margin-top: 92px;
+}
 .services__section__title {
     color: #222;
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    line-height: 75px; /* 187.5% */
+    line-height: 187.5%;
     letter-spacing: -1px;
     text-transform: uppercase;
 }
 
-.services__section__title {
+.services__section__list {
+    display: flex;
+    flex-basis: calc((100% - 3 * 30px) / 3);
+}
+
+.services__section__img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.services__section__subtitle {
     color: #222;
     text-align: center;
     font-size: 18px;
@@ -65,6 +93,7 @@ a {
 
 /* contact */
 .contact__section {
+    margin-top: 119px;
     height: 679px;
     background: #222;
 }
@@ -76,6 +105,8 @@ a {
     font-weight: 700;
     letter-spacing: -1px;
     text-transform: uppercase;
+    padding-top: 91px;
+    margin-bottom: 116px;
 }
 
 .contact__section__form {
@@ -84,6 +115,15 @@ a {
     fill: #FFF;
     stroke-width: 1px;
     stroke: #CCC;
+}
+
+.contact__section__label{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__section__form:nth-last-child() {
+    flex-direction: row;
 }
 
 .contact__section__form-control {
@@ -98,4 +138,10 @@ a {
     width: 242px;
     height: 68px;
     background:#FED136;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
